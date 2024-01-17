@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Zodiacs Puzzle</string>
+    <string name="background_image_description">background_image_description</string>
+    <string name="settings">settings</string>
+    <string name="close_dialog">close</string>
+    <string name="music_on_image_button">music_on_image_button</string>
+    <string name="music_off_image_button">music_off_image_button</string>
+    <string name="web_access_for_html_data_consent">web_access_for_html_data_consent</string>
+</resources>

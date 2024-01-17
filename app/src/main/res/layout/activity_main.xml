@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.andeng.matchingpicture.MainActivity">
+
+    <!-- Background ImageView -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_picture"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/background_image_description"/>
+
+
+    <!-- GridView on top of the background -->
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/transparent"/> <!-- Make GridView background transparent -->
+
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:onClick="resetGame"/>
+
+
+
+
+
+</RelativeLayout>
